@@ -970,7 +970,7 @@ INSERT INTO `parroquias` (`id_parroquia`, `id_municipio`, `parroquia`) VALUES
 (70, 25, 'Boca de Chávez'),
 (71, 26, 'Pueblo Nuevo'),
 (72, 26, 'Santa Ana'),
-(73, 27, 'Bergatín'),
+(73, 27, 'Bergantín'),
 (74, 27, 'Caigua'),
 (75, 27, 'El Carmen'),
 (76, 27, 'El Pilar'),
