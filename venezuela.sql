@@ -2046,3 +2046,12 @@ ALTER TABLE `municipios`
 
 ALTER TABLE `parroquias`
   ADD CONSTRAINT `parroquias_ibfk_1` FOREIGN KEY (`id_municipio`) REFERENCES `municipios` (`id_municipio`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+
+create view parroquia as 
+  select `estados`.`estado` AS `estado`,`municipios`.`municipio` AS `municipio`,`parroquias`.`parroquia` AS `parroquia`
+  from 
+  ((`parroquias` join `municipios` on(`parroquias`.`id_municipio` = `municipios`.`id_municipio`))
+  join `estados` on(`municipios`.`id_estado` = `estados`.`id_estado`)) 
+  order by 1,2,3
+
