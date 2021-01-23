@@ -538,7 +538,7 @@ INSERT INTO `estados` (`id_estado`, `estado`, `iso_3166-2`) VALUES
 (18, 'Sucre', 'VE-R'),
 (19, 'Táchira', 'VE-S'),
 (20, 'Trujillo', 'VE-T'),
-(21, 'Vargas', 'VE-W'),
+(21, 'La Guaira', 'VE-W'),
 (22, 'Yaracuy', 'VE-U'),
 (23, 'Zulia', 'VE-V'),
 (24, 'Distrito Capital', 'VE-A'),
